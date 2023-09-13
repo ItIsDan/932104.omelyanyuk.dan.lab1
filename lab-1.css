@@ -19,7 +19,7 @@ header {
     margin-right: auto;
     padding: 10px 25px;
 }
-
+  
 .shape {
     width: 100px;
     border: 4px solid white;
@@ -28,7 +28,49 @@ header {
     border-radius: 20px 0px ;
     margin: 5px 20px 20px 0;
 }
+
 a {
     color: red;
     padding-left: 180px;
+}
+
+p {
+    line-height: 130%;
+}
+
+img {
+    padding-top: 30px;
+    float: right
+}
+
+h2 {
+    margin-bottom: -15px; 
+}
+
+li {
+    margin: 10px 0;
+}
+
+.visuals {
+    display:flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+table {
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+footer {
+    width: 100%;
+    background-color: green;
+    font-family: "Courier New";
+    padding: 10px 0;
+    text-align:center;
 }
