@@ -8,25 +8,28 @@ header {
     background-color: green;
     font-family: "Courier New";
     padding: 10px 0;
-    text-align:center;
+    font-size: 18px;
+    text-align: center;
 }
 
 .mainblock {
-    width: 455px;
+    width: 500px;
     background-color: blue;
     font-family: "Arial";
     margin-left: auto;
     margin-right: auto;
     padding: 10px 25px;
+    font-size: 16px;
 }
-  
+
 .shape {
     width: 100px;
     border: 4px solid white;
     height: 100px;
     float: left;
-    border-radius: 20px 0px ;
+    border-radius: 20px 0px;
     margin: 5px 20px 20px 0;
+    margin-top: -5px;
 }
 
 a {
@@ -35,7 +38,7 @@ a {
 }
 
 p {
-    line-height: 130%;
+    line-height: 110%;
 }
 
 img {
@@ -44,7 +47,7 @@ img {
 }
 
 h2 {
-    margin-bottom: -15px; 
+    margin-bottom: -15px;
 }
 
 li {
@@ -52,17 +55,18 @@ li {
 }
 
 .visuals {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     margin-top: -20px;
 }
+
 table {
-    border: 1px solid gray;
+    border: 1px solid white;
     margin-top: 20px;
 }
 
 td {
-    border: 1px solid gray;
+    border: 1px solid white;
     padding: 15px;
     padding-bottom: 0;
 }
@@ -70,7 +74,8 @@ td {
 footer {
     width: 100%;
     background-color: green;
-    font-family: "Courier New";
+    font-family: "Arial";
     padding: 10px 0;
-    text-align:center;
+    font-size: 18px;
+    text-align: center;
 }
